@@ -1,0 +1,13 @@
+{
+  "name": "mtool-embed",
+  "version": "0.1.0",
+  "description": "将 MTool 翻译文件嵌入游戏的通用离线命令行工具",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NihilDigit/mtool-embed.git"
+  },
+  "bin": { "mtool-embed": "./bin/mtool-embed.js" },
+  "scripts": { "test": "bun test" },
+  "engines": { "node": ">=18" }
+}
